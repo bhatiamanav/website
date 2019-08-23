@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Manav Bhatia
+        </title>
+        <link rel="stylesheet" type="text/css" href="./css/main.css">
+        <script src="./js/main.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    </head>
+    <body onload="setValue()">
+
+        <ul id="navbar">
+            <li id="name">Manav Bhatia</li><br>
+		<li onmouseover="navbar_color_change(this)" onmouseout="navbar_color_reverse(this)"><a href="feedback.html">Feedback</a></li>
+		<li onmouseover="navbar_color_change(this)" onmouseout="navbar_color_reverse(this)"><a href="interests.html">Interests</a></li>
+		<li onmouseover="navbar_color_change(this)" onmouseout="navbar_color_reverse(this)"><a href="index.html">Home</a></li>
+        </ul>
+        <div class="slideshow">
+            <img src="https://cdn.allwallpaper.in/wallpapers/3872x2592/16659/light-wall-lumiere-house-mur-3872x2592-wallpaper.jpg" alt="sliding image" id="slide-image" onclick="changeImage()">
+            <h3 id="slide-image-caption-title">Dark</h3>
+            <p id="slide-image-caption">Darkness can't drive out darkness,only light can do that.</p>
+        </div>
+        <div class="about-me">
+            <img src="./img/my_img.jpg" alt="Manav Bhatia"></img>
+            <div>
+
+                <h2>Hi,I am Manav Bhatia.</h2>
+                <h4>I am IIIT-H ECE undergrad.</h4>
+                <table>
+                    <tr>
+                        <th>Happenings</th>
+                        <th>Place</th>
+                    </tr>
+                    <tr>
+                        <td>Born</td>
+                        <td>Bhopal</td>
+                    </tr>
+                    <tr>
+                        <td>School(till 10th)</td>
+                        <td rowspan="3">Jhansi</td>
+                    </tr>
+                    <tr>
+                        <td>School(11th/12th)</td>
+                    </tr>
+                    <tr>
+                        <td>JEE Coaching</td>
+                    </tr>
+                    <tr>
+                        <td>College</td>
+                        <td>Hyderabad</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="time-line">
+            <h2>Skills</h2>
+            <div class="time-line-box">
+                <div class="time-line-box-button">
+                    C/C++
+                </div>
+            </div>
+            <div class="time-line-box">
+                <div class="time-line-box-button-alternate">
+                    HTML/CSS
+                </div>
+            </div>
+            <div class="time-line-box">
+                <div class="time-line-box-button">
+                    JS
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+            <p>
+                Made with <i class="fa fa-fw fa-heart foot-ic"></i> & <i class="fa fa-fw fa-coffee foot-ic"></i> by Manav Bhatia
+            </p>
+        </div>
+    </body>
+</html>
